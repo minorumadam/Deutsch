@@ -52,58 +52,41 @@
     </div>
 
     <div class="sidebar-menu half-bottom">
-        <div class="sidebar-divider">
-            Hören
+        <a class="menu-item" href="index.html">
+            <i class="bg-red-light fa fa-home"></i>
+            <em>HOME</em>
+            <i class="fa fa-circle"></i>
+        </a>
+        <div class="has-submenu">
+            <a class="menu-item show-submenu" href="#">
+                <i class="bg-green-dark fa fa-bullhorn"></i>
+                <em>Hören</em>
+                <strong>4</strong>
+            </a>
+            <div class="submenu">
+                <a class="submenu-item" href="hear1.html"><i class="fa fa-angle-right"></i><em>Hören 1</em><i class="fa fa-circle"></i></a>
+                <a class="submenu-item" href="hear2.html"><i class="fa fa-angle-right"></i><em>Hören 2</em><i class="fa fa-circle"></i></a>
+                <a class="submenu-item" href="hear3.html"><i class="fa fa-angle-right"></i><em>Hören 3</em><i class="fa fa-circle"></i></a>
+                <a class="submenu-item" href="hear4.html"><i class="fa fa-angle-right"></i><em>Hören 4</em><i class="fa fa-circle"></i></a>
+            </div>
         </div>
-
-        <a class="menu-item" href="page-video.html">
-            <i class="bg-green-light">H1</i>
-            <em>Hören1</em>
-            <i class="fa fa-circle"></i>
-        </a>
-        <a class="menu-item" href="page-blog.html">
-            <i class="bg-green-light">H2</i>
-            <em>Hören2</em>
-            <i class="fa fa-circle"></i>
-        </a>
-        <a class="menu-item" href="page-map.html">
-            <i class="bg-green-light">H3</i>
-            <em>Hören3</em>
-            <i class="fa fa-circle"></i>
-        </a>
-        <a class="menu-item" href="contact.html">
-            <i class="bg-green-light">H4</i>
-            <em>Hören4</em>
-            <i class="fa fa-circle"></i>
-        </a>
-
-        <!--Lesson-->
-        <div class="sidebar-divider">
-            Lesen
+        <div class="has-submenu">
+            <a class="menu-item show-submenu" href="#">
+                <i class="bg-blue-dark fa fa-navicon"></i>
+                <em>Lesen</em>
+                <strong>5</strong>
+            </a>
+            <div class="submenu">
+                <a class="submenu-item" href="lesson1.html"><i class="fa fa-angle-right"></i><em>Lesen 1</em><i class="fa fa-circle"></i></a>
+                <a class="submenu-item" href="lesson2.html"><i class="fa fa-angle-right"></i><em>Lesen 2</em><i class="fa fa-circle"></i></a>
+                <a class="submenu-item" href="lesson3.html"><i class="fa fa-angle-right"></i><em>Lesen 3</em><i class="fa fa-circle"></i></a>
+                <a class="submenu-item" href="lesson4.html"><i class="fa fa-angle-right"></i><em>Lesen 4</em><i class="fa fa-circle"></i></a>
+                <a class="submenu-item" href="lesson5.html"><i class="fa fa-angle-right"></i><em>Lesen 5</em><i class="fa fa-circle"></i></a>
+            </div>
         </div>
-        <a class="menu-item" href="page-video.html">
-            <i class="bg-green-dark">L1</i>
-            <em>Lesen1</em>
-            <i class="fa fa-circle"></i>
-        </a>
-        <a class="menu-item" href="page-video.html">
-            <i class="bg-green-dark">L2</i>
-            <em>Lesen2</em>
-            <i class="fa fa-circle"></i>
-        </a>
-        <a class="menu-item" href="page-video.html">
-            <i class="bg-green-dark">L3</i>
-            <em>Lesen3</em>
-            <i class="fa fa-circle"></i>
-        </a>
-        <a class="menu-item" href="page-video.html">
-            <i class="bg-green-dark">L4</i>
-            <em>Lesen4</em>
-            <i class="fa fa-circle"></i>
-        </a>
-        <a class="menu-item" href="page-video.html">
-            <i class="bg-green-dark">L5</i>
-            <em>Lesen5</em>
+        <a class="menu-item" href="write.html">
+            <i class="bg-yellow-dark fa fa-pencil-square-o"></i>
+            <em>Schreniben</em>
             <i class="fa fa-circle"></i>
         </a>
         <a class="menu-item close-sidebar" href="#">
@@ -128,15 +111,15 @@
                 <!-- Menu Icon-->
                 <div class="clear"></div>
                 <div class="decoration"></div>
+                <div class="head-color">
                 <p class="heading-subtitle no-bottom">
-
                     Sie haben vor einem halben Jahr bei der Firma Neumann eine Waschmaschine gekauft. Jetzt ist sie kaputt.
                     <br>Sie erreichen bei der Firma telefonisch niemanden. Deshalb schreiben Sie eine E-Mail.<br>
 
-                    <br>Schreiben Sie Ihren Text. Zeigen Sie, was Sie k�nnen. Schreiben Sie m�glichst viel.
-                    <br> Schreiben Sie etwas �ber folgende Punkte. Vergessen Sie nicht die Anrede und den Gru�.
-
+                    <br>Schreiben Sie Ihren Text. Zeigen Sie, was Sie können. Schreiben Sie möglichst viel.
+                    <br> Schreiben Sie etwas über folgende Punkte. Vergessen Sie nicht die Anrede und den Gruß.
                 </p>
+                </div>
             </div>
             <div class="clear"></div>
             <div class="decoration"></div>
@@ -155,18 +138,18 @@
             </div>
             <div class="portfolio-item container write_right">
                 <div class="formFieldWrap">
-                    <label class="field-title contactNameField" for="contactNameField">Anrede:</label>
+                    <label class="field-title contactNameField" for="contactNameField"><b>Anrede:</b></label>
                     <input type="text" name="contactNameField" value="" class="contactField requiredField"/>
                 </div>
                 <div class="formTextareaWrap">
                     <textarea name="contactMessageTextarea" class="contactTextarea requiredField" id="contactMessageTextarea"></textarea>
                 </div>
                 <div class="formFieldWrap">
-                    <label class="field-title contactNameField" for="contactNameField">Gruß:</label>
+                    <label class="field-title contactNameField" for="contactNameField"><b>Gruß:</b></label>
                     <input type="text" name="contactNameField" value="" class="contactField requiredField"/>
                 </div>
                 <div class="formFieldWrap">
-                    <label class="field-title contactNameField" for="contactNameField">Unterschrift:</label>
+                    <label class="field-title contactNameField" for="contactNameField"><b>Unterschrift:</b></label>
                     <input type="text" name="contactNameField" value="" class="contactField requiredField"/>
                 </div>
             </div>

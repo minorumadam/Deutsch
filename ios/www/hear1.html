@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"  />
     <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -51,58 +51,41 @@
         </div>
 
         <div class="sidebar-menu half-bottom">
-            <div class="sidebar-divider">
-                Hören
+            <a class="menu-item" href="index.html">
+                <i class="bg-red-light fa fa-home"></i>
+                <em>HOME</em>
+                <i class="fa fa-circle"></i>
+            </a>
+            <div class="has-submenu">
+                <a class="menu-item show-submenu" href="#">
+                    <i class="bg-green-dark fa fa-bullhorn"></i>
+                    <em>Hören</em>
+                    <strong>4</strong>
+                </a>
+                <div class="submenu">
+                    <a class="submenu-item" href="hear1.html"><i class="fa fa-angle-right"></i><em>Hören 1</em><i class="fa fa-circle"></i></a>
+                    <a class="submenu-item" href="hear2.html"><i class="fa fa-angle-right"></i><em>Hören 2</em><i class="fa fa-circle"></i></a>
+                    <a class="submenu-item" href="hear3.html"><i class="fa fa-angle-right"></i><em>Hören 3</em><i class="fa fa-circle"></i></a>
+                    <a class="submenu-item" href="hear4.html"><i class="fa fa-angle-right"></i><em>Hören 4</em><i class="fa fa-circle"></i></a>
+                </div>
             </div>
-
-            <a class="menu-item" href="page-video.html">
-                <i class="bg-green-light">H1</i>
-                <em>Hören1</em>
-                <i class="fa fa-circle"></i>
-            </a>
-            <a class="menu-item" href="page-blog.html">
-                <i class="bg-green-light">H2</i>
-                <em>Hören2</em>
-                <i class="fa fa-circle"></i>
-            </a>
-            <a class="menu-item" href="page-map.html">
-                <i class="bg-green-light">H3</i>
-                <em>Hören3</em>
-                <i class="fa fa-circle"></i>
-            </a>
-            <a class="menu-item" href="contact.html">
-                <i class="bg-green-light">H4</i>
-                <em>Hören4</em>
-                <i class="fa fa-circle"></i>
-            </a>
-
-            <!--Lesson-->
-            <div class="sidebar-divider">
-                Lesen
+            <div class="has-submenu">
+                <a class="menu-item show-submenu" href="#">
+                    <i class="bg-blue-dark fa fa-navicon"></i>
+                    <em>Lesen</em>
+                    <strong>5</strong>
+                </a>
+                <div class="submenu">
+                    <a class="submenu-item" href="lesson1.html"><i class="fa fa-angle-right"></i><em>Lesen 1</em><i class="fa fa-circle"></i></a>
+                    <a class="submenu-item" href="lesson2.html"><i class="fa fa-angle-right"></i><em>Lesen 2</em><i class="fa fa-circle"></i></a>
+                    <a class="submenu-item" href="lesson3.html"><i class="fa fa-angle-right"></i><em>Lesen 3</em><i class="fa fa-circle"></i></a>
+                    <a class="submenu-item" href="lesson4.html"><i class="fa fa-angle-right"></i><em>Lesen 4</em><i class="fa fa-circle"></i></a>
+                    <a class="submenu-item" href="lesson5.html"><i class="fa fa-angle-right"></i><em>Lesen 5</em><i class="fa fa-circle"></i></a>
+                </div>
             </div>
-            <a class="menu-item" href="page-video.html">
-                <i class="bg-green-dark">L1</i>
-                <em>Lesen1</em>
-                <i class="fa fa-circle"></i>
-            </a>
-            <a class="menu-item" href="page-video.html">
-                <i class="bg-green-dark">L2</i>
-                <em>Lesen2</em>
-                <i class="fa fa-circle"></i>
-            </a>
-            <a class="menu-item" href="page-video.html">
-                <i class="bg-green-dark">L3</i>
-                <em>Lesen3</em>
-                <i class="fa fa-circle"></i>
-            </a>
-            <a class="menu-item" href="page-video.html">
-                <i class="bg-green-dark">L4</i>
-                <em>Lesen4</em>
-                <i class="fa fa-circle"></i>
-            </a>
-            <a class="menu-item" href="page-video.html">
-                <i class="bg-green-dark">L5</i>
-                <em>Lesen5</em>
+            <a class="menu-item" href="write.html">
+                <i class="bg-yellow-dark fa fa-pencil-square-o"></i>
+                <em>Schreniben</em>
                 <i class="fa fa-circle"></i>
             </a>
             <a class="menu-item close-sidebar" href="#">
@@ -127,67 +110,74 @@
                     <!-- Menu Icon-->
                     <div class="clear"></div>
                     <div class="decoration"></div>
-                    <p class="heading-subtitle no-bottom">
-                        Sie hören vier Ansagen. Zu jeder Ansage gibt es eine Aufgabe. Welche L�sung (a, b oder c) passt am besten?
-                        <br>Markieren Sie Ihre L�sungen f�r die Aufgaben 1-4.
-                    </p>
+                    <div class="head-color">
+                        <p class="heading-subtitle no-bottom">
+                            Sie Hören vier Ansagen. Zu jeder Ansage gibt es eine Aufgabe. Welche Lösung (a, b oder c) passt am besten?
+                            <br>Markieren Sie Ihre Lösungen für die Aufgaben 1-4.
+                        </p>
+                    </div>
                 </div>
                 <div class="clear"></div>
                 <div class="decoration"></div>
-                <!--Title -->
-                <h2>Portfolio Title 1</h2>
+                <!--Audio Play -->
+                <div>
+                    <audio id="myaudio">
+                        <source src="audio/hv1.mp3" type="audio/mpeg">
+                    </audio>
+                    <button type="button" id="audio" class="audio fa fa-play"> </button>
+
+
+                    <a class="audio_title"><b>Abspielen</b></a>
+                </div>
                 <div class="clear"></div>
                 <div class="decoration"></div>
+                <!--Audio Play -->
                 <!--Zero Partition-->
                 <div class="portfolio-item container question_border backgr">
                     <h3 class="color-red-dark">Beispiel</h3>
                     <p class="question_border">Was soll Frau Baumgart tun?</p>
                 </div>
-                <!--100-->
-                <div class="portfolio-item container question_border backgr">
-                    <select action="php/contact.php" class="select-border" id="send_email">
+                <div class="portfolio-item container question_border backgr"  style="height: 62px;">
+                    <select action="php/contact.php" class="select-border2">
                         <option value="horen101"> Herrn Libertz anrufen.</option>
                         <option value="horen102"> Ihre Bewerbungsunterlagen abholen.</option>
                         <option value="horen203"> Zu einem Kennenlerntag kommen.</option>
                     </select>
                 </div>
-
                 <div class="clear"></div>
                 <div class="decoration"></div>
                 <!--110-->
-                <div class="portfolio-item container question_border">
-                    <p class="question_border">1. Was soll Herr Matuschek machen?</p>
+                <div class="portfolio-item container question_border cell-size">
+                    <p class="question_border"><b>1.&nbsp</b> Was soll Herr Matuschek machen?</p>
                 </div>
                 <div class="portfolio-item container question_border">
                     <select action="php/contact.php" class="select-border2">
-                        <option value="horen111">Den Stromz�hler ablesen</option>
-                        <option value="horen112">Die Stromrechnung bezahlen. </option>
-                        <option value="113">Einen neuen Termin machen.</option>
+                        <option value="horen221"> Den Stromzähler ablesen</option>
+                        <option value="horen222">Die Stromrechnung bezahlen.</option>
+                        <option value="horen223">Einen neuen Termin machen.</option>
                     </select>
                 </div>
-
                 <div class="clear"></div>
                 <div class="decoration"></div>
-                <!--130-->
-                <div class="portfolio-item container question_border">
-                    <p class="question_border">2. Wohin soll Frau B�hmer kommen?</p>
-                </div>
 
+                <!--130-->
+                <div class="portfolio-item container question_border cell-size">
+                    <p class="question_border"><b>2.&nbsp</b> Wohin soll Frau Böhmer kommen?.</p>
+                </div>
                 <div class="portfolio-item container question_border">
                     <select action="php/contact.php" class="select-border2">
                         <option value="horen121">In den Kindergarten. </option>
-                        <option value="horen122">Zur Agentur f�r Arbeit. </option>
+                        <option value="horen122">Zur Agentur für Arbeit. </option>
                         <option value="horen123">Zur Schule.</option>
                     </select>
                 </div>
-
                 <div class="clear"></div>
                 <div class="decoration"></div>
                 <!--140-->
-                <div class="portfolio-item container question_border">
-                    <p class="question_border">3. Wohin soll Herr Holstein mit seinem Sohn gehen?</p>
-                </div>
 
+                <div class="portfolio-item container question_border cell-size">
+                    <p class="question_border"><b>3.&nbsp</b> Wohin soll Herr Holstein mit seinem Sohn gehen?</p>
+                </div>
                 <div class="portfolio-item container question_border">
                     <select action="php/contact.php" class="select-border2">
                         <option value="horen131">Ins Krankenhaus. </option>
@@ -195,15 +185,14 @@
                         <option value="horen133">Zum Gesundheitsamt. </option>
                     </select>
                 </div>
-
                 <div class="clear"></div>
                 <div class="decoration"></div>
                 <!--Second-->
                 <!--First Partition-->
-                <div class="portfolio-item container question_border">
-                    <p class="question_border">4. Wo soll Herr Lee sein Auto abholen?</p>
-                </div>
 
+                <div class="portfolio-item container question_border cell-size">
+                    <p class="question_border"><b>4.&nbsp</b> Wo soll Herr Lee sein Auto abholen?</p>
+                </div>
                 <div class="portfolio-item container question_border">
                     <select action="php/contact.php" class="select-border2">
                         <option value="horen141">Bei der Polizei. </option>
@@ -211,7 +200,6 @@
                         <option value="horen143">In der Werkstatt.</option>
                     </select>
                 </div>
-
                 <div class="clear"></div>
                 <div class="decoration"></div>
                 <!--Second-->
@@ -234,7 +222,7 @@
                         <a href="write.html" class="button button-blue button-round save">S</a>
                         <a href="#" class="button button-blue button-round bew">Bewerten</a>
                         <a href="#" class="button button-red button-round weiter">Weiter</a>
-                        <a href="#" class="button button-red button-round save">Ende</a>
+                        <a href="end.html" class="button button-red button-round save">Ende</a>
                     </div>
                 </div>
             </div>
@@ -250,3 +238,4 @@
 
 
 </body>
+<script type="text/javascript" src="scripts/hear1.js"></script>
