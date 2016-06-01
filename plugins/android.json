@@ -1,0 +1,24 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.Dutchtest"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.Dutchtest"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.Dutchtest"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.Dutchtest"
+        }
+    },
+    "dependent_plugins": {}
+}
